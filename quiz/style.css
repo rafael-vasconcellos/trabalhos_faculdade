@@ -1,0 +1,99 @@
+body {background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;}
+.quiz {
+  height: 25em;
+  width: 24em;
+  border: solid red;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.image {
+  width: inherit;
+  height: 25vh;
+  background-color: #1C1C1C;
+  background-image: url(https://cdn.riddle.com/embeds/v2/images/q_80,f_png,c_fill,w_960,h_540/e61/e611e98b8c4f025fec2b3cef184352f3.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-origin: border-box;
+  background-position: center;
+}
+
+/*div*/ .questions {
+  width: inherit;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text {
+  font-weight: bold;
+  color: white;
+  width: 20em;
+  text-align: center;
+}
+
+.asking {
+  position: relative;
+  top: 1em;
+}
+
+.expo {
+  border: 0;
+  margin: 0;
+  position: relative;
+  top: 1em;
+}
+
+.alternative{
+  background-color: #363636;
+  color: white;
+  border: 0px;
+  margin: 7px;
+  height: 3em;
+  width: 20em;
+  position: relative;
+  top: 2em;
+}
+
+.start {
+  top: 4em;
+}
+
+.next {
+  background-color: #363636;
+  border: 0px;
+  color: white;
+  position: relative;
+  top: 0em;
+  height: 2em;
+  width: 5em;
+  text-align: center;
+}
+
+.score {
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  position: relative;
+  top: 1.5em;
+  padding: 5px 5px;
+}
+
+.hidden {
+  display: none;
+}
+
+.selected {
+  background-color: red;
+}
+
+.correct {
+  background-color: green;
+  font-weight: bold;
+  color: white;
+  border: 1px solid white;
+}
