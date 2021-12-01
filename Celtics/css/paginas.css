@@ -393,3 +393,127 @@ span{
 	position: relative;
 	left: 300px;
 }
+
+main {
+	background-color: white;
+	font-family: sans-serif;
+	display: flex;
+	flex-direction: column;
+	gap: 50px;
+	align-items: center;
+}
+
+header {
+	margin-bottom: 1.5%;
+}
+
+.ntext {
+	width: 80%;
+	position: static;
+	font-size: 14px;
+}
+
+.ntext p {
+	font-size: 14px;
+	width: auto;
+	text-align: center;
+	position: static;
+}
+
+/* p, h2 {
+	margin-left: 1%;
+} */
+
+.parte1 {
+	display: flex;
+	position: relative;
+	margin-left: 3%;
+	background-color: white;
+	font-size: 14px;
+}
+
+.parte2 {
+	position: relative;
+	top: 10%;
+	bottom: 10%;
+}
+
+.parte11 {
+	position: static;
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+
+
+.pic1 {
+	background-color: inherit;
+	background-image: url("../imagens/sick.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 600px;
+	height: 431px;
+	margin-right: 5%;
+}
+
+.sintomas {
+	width: 70%;
+}
+
+.subtitle {
+	font-weight: bold;
+}
+
+.pheader {
+	width: 50%;
+	position: relative;
+	top: 50%;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.pic2 {
+	background-color: inherit;
+	background-image: url("../imagens/prevencao.jpeg");
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 630px;
+	height: 500px;
+	margin-right: 5%;
+}
+
+.FAQ {
+	font-family: sans-serif;
+}
+
+.warning {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.biggerfont {
+	font-size: 23px;
+	text-align: center;
+}
+
+.red {
+	color: red;
+}
+
+body {
+	background-color: white;
+}
+
+.atendimento {
+	background: #212121;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    margin: 0;
+    border-radius: 500px;
+	cursor: pointer;
+}

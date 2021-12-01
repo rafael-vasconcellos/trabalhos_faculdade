@@ -102,7 +102,6 @@ header{
 a:-webkit-any-link {
     color: -webkit-link;
     text-decoration: underline;
-    cursor: auto;
 }
 
 .sub-central li{
@@ -124,10 +123,9 @@ a:-webkit-any-link {
 
 
 
-.paginas{
+ .paginas{
     margin-top: 10px;
-    margin-right: -60px;
-    margin-left: 185px;
+	padding: 0px 1%;
 	cursor: pointer;
 }
 
@@ -140,7 +138,8 @@ nav{
     background-color:gainsboro;
     height: 50px;
     display: block;
-	clear:both;   
+	clear:both;
+	text-align: center;
 }
  
 
@@ -264,7 +263,7 @@ footer .container{
 
 
 
-html, body, div, span, applet, object, iframe,
+html, body, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
@@ -306,4 +305,14 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+}
+
+.list {
+	display: list-item;
+	list-style: disc;
+	list-style-type: disc;
+}
+
+ul {
+	position: static;
 }
